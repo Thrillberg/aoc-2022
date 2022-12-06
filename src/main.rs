@@ -1,11 +1,13 @@
 mod day_five;
 mod day_four;
 mod day_one;
+mod day_six;
 mod day_three;
 mod day_two;
 use day_five::day_five;
 use day_four::day_four;
 use day_one::day_one;
+use day_six::day_six;
 use day_three::day_three_part_one;
 use day_three::day_three_part_two;
 use day_two::day_two;
@@ -29,4 +31,6 @@ fn main() {
         let day_five_lines = input.lines().clone();
         day_five(day_five_lines);
     }
+    println!("Day six solution:");
+    day_six();
 }
